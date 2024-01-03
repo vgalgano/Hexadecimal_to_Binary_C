@@ -85,6 +85,7 @@ int main()
     char hexdec[100];
     printf("Please type an hexadecimal number: ");
     scanf("%s",&hexdec);
+    /*fgets(hexdec,100,stdin); */
 
     // Convert HexaDecimal to Binary
     printf("\nEquivalent Binary value is : ");
